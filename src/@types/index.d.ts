@@ -1,4 +1,7 @@
 namespace Github {
+  /**
+   * Describes a user from the Github API.
+   */
   export type User = {
     login: string
     avatar_url: string
