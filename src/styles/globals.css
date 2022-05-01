@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+@layer utilities {
+  .wrapper {
+    @apply max-w-screen-sm w-[90%];
+  }
+}
