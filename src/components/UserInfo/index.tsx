@@ -1,4 +1,4 @@
-import { parseDate } from '@/util/dates'
+import { parseDate } from '@/utils/dates'
 import {
   LinkIcon,
   LocationMarkerIcon,

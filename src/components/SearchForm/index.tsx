@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { preventDefault } from '@/util/events'
+import { preventDefault } from '@/utils/events'
 import { SearchIcon } from '@heroicons/react/outline'
 
 type SearchFormProps = {

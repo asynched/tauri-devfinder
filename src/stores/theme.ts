@@ -1,6 +1,6 @@
 import createBox from 'blackbox.js'
 
-import { getTheme, toggleTheme as domToggleTheme } from '@/util/theme'
+import { getTheme, toggleTheme as domToggleTheme } from '@/utils/theme'
 
 const themeBox = createBox(getTheme())
 

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 
-import { octocat } from '@/util/data'
-import { themeSetup } from '@/util/theme'
+import { octocat } from '@/utils/data'
+import { themeSetup } from '@/utils/theme'
 
 import { getUser } from '@/services/http/github/user'
 
@@ -9,7 +9,7 @@ import SearchForm from '@/components/SearchForm'
 import Heading from '@/components/Heading'
 import UserInfo from '@/components/UserInfo'
 
-function App() {
+export default function App() {
   const [user, setUser] = useState<Github.User>(octocat)
 
   const onSearch = async (username: string) => {
@@ -27,5 +27,3 @@ function App() {
     </div>
   )
 }
-
-export default App
